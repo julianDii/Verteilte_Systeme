@@ -238,7 +238,8 @@ public class TelephoneServer {
 
             } else {
 
-
+                System.out.println("Habe nicht gesucht. Enter Name oder Nummer");
+                return resultList;
             }
 
 
@@ -249,6 +250,9 @@ public class TelephoneServer {
             else if (isNumber(number)) {
                 searchNumber(number);
             } else {
+
+                System.out.println("Habe nicht gesucht. Enter Name oder Nummer");
+                return resultList;
 
 
             }
